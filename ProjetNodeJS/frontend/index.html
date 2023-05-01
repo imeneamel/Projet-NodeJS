@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <base href="/" />
+
+    <title>Logging in</title>
+  </head>
+
+  <body>
+    <div class="title">SAFE GEAR</div>
+    <div class="loginBox">
+      <img
+        class="user"
+        src="https://i.ibb.co/yVGxFPR/2.png"
+        height="100px"
+        width="100px"
+      />
+      <h3>SIGN IN</h3>
+      <form id="login" method="POST" action="/login">
+        <div class="inputBox">
+          <input
+          type="text" id="username" name="username"
+            placeholder="Username"
+          />
+          <input
+          type="password" id="password" name="password"
+            placeholder="Password"
+          />
+        </div>
+        <button id="loggingin" class="button-6" role="button" type="submit">Se connecter</button>
+        <br>
+      </form>
+      <br>
+      <a href="#">Forget Password<br /> </a>
+    </div>
+  </body>
+  <!-- JS -->
+  <script src="client.js"></script>
+</html>
