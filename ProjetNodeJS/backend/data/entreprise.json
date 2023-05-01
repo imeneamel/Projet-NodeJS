@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "isidro_von@hotmail.com",
+      "password": "Torrey"
+    },
+    {
+      "id": 2,
+      "username": "exemple",
+      "password": "motdepasse"
+    },
+    {
+      "id": 3,
+      "username": "entreprise",
+      "password": "palentologue"
+    },
+    {
+      "id": 4,
+      "username": "imene",
+      "password": "ines&margot"
+    }
+  ]
+}
