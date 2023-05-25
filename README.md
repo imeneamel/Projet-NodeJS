@@ -48,7 +48,7 @@ Suivez les étapes ci-dessous pour utiliser l'application :
 
 - Connectez-vous à l'application en utilisant vos identifiants personnels (pour le test : user = 'betuser', password ='betpass')
 
-Explorez les différentes fonctionnalités de l'application, telles que la gestion des équipements, l'ajout et la suppression d'équipements, leur effet sur le graphique et le tableau de notification, etc.
+- Explorez les différentes fonctionnalités de l'application, telles que la gestion des équipements, l'ajout et la suppression d'équipements, leur effet sur le graphique et le tableau de notification, etc.
 
 ## Support
 
