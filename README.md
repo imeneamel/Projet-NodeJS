@@ -25,11 +25,11 @@ git clone https://github.com/imeneamel/Projet-NodeJS
 
 - Accédez au répertoire du projet :
 ```bash
-cd NODE
+cd .\Projet-NodeJS\NODE\
 ```
 - Installez les dépendances nécessaires :
 ```bash
-npm install
+npm install 
 ```
 - Démarrez l'application :
 ```bash
