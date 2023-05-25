@@ -25,7 +25,7 @@ git clone https://github.com/imeneamel/Projet-NodeJS
 
 - Accédez au répertoire du projet :
 ```bash
-cd .\Projet-NodeJS\NODE\
+cd .\Projet-NodeJS\SAFE_apps\backend\
 ```
 - Installez les dépendances nécessaires :
 ```bash
