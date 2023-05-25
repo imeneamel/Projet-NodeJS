@@ -33,7 +33,7 @@ npm install
 ```
 - Démarrez l'application :
 ```bash
-npm start
+node server.js
 ```
 
 - Ouvrez votre navigateur et accédez à l'URL suivante : [http://localhost:3000](http://localhost:3000).
