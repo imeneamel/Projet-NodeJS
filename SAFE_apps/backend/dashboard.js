@@ -71,6 +71,8 @@ companyEquipments.forEach((equipment) => {
   locationEquipments.appendChild(equipmentDiv);
 });
 
+
+
 // Ajouter le style CSS
 const style = document.createElement("style");
 style.innerHTML = `
@@ -163,6 +165,7 @@ function getEquipmentsPanne() {
 
 window.onload = function () {
   getEquipmentsPanne();
+  updateLocationEquipments();
 };
 
 function getEquipmentsByCompany(equipments, company) {
@@ -232,6 +235,24 @@ function updateEtatEquipementsChart() {
   // Mettre à jour le graphique circulaire
   const etatEquipementsChart = createEtatEquipementsChart(equipments);
   etatEquipementsChart.update();
+}
+
+function updateLocationEquipments() {
+  const locationEquipments = document.querySelectorAll(".location-equipments");
+  locationEquipments.forEach((location) => {
+    const locationName = location.id.split("-")[0];
+    const locationEquipmentsDiv = location.querySelector(".location-equipments-div");
+    locationEquipmentsDiv.innerHTML = "";
+
+    companyEquipments
+      .filter((equipment) => equipment.location === locationName)
+      .forEach((equipment) => {
+        const equipmentDiv = document.createElement("div");
+        equipmentDiv.classList.add("equipment");
+        equipmentDiv.innerText = equipment.name;
+        locationEquipmentsDiv.appendChild(equipmentDiv);
+      });
+  });
 }
 
 document.addEventListener("DOMContentLoaded", () => {});
