@@ -57,3 +57,4 @@ Si vous rencontrez des problèmes lors de l'installation, de la configuration ou
 ## License
 
 Ce projet est sous licence [MIT](https://choosealicense.com/licenses/mit/). Veuillez consulter le fichier LICENSE pour plus d'informations.
+
